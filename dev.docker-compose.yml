@@ -1,0 +1,19 @@
+services:
+  docusaurus-dev:
+    build:
+      context: .
+      target: dev
+    container_name: gorehco_docs_dev
+    ports:
+      - "3001:3001"
+    volumes:
+      - .:/opt/docusaurus
+      - /opt/docusaurus/node_modules
+    environment:
+      - NODE_ENV=development
+    networks:
+      - docs_network
+
+networks:
+  docs_network:
+    driver: bridge

@@ -1,0 +1,18 @@
+services:
+  docusaurus-nginx:
+    build:
+      context: .
+      target: nginx
+    container_name: gorehco_docs_nginx
+    ports:
+      - "80:80"
+      - "130.150.47.203:80:80"  # Acceso externo
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - docs_network
+
+networks:
+  docs_network:
+    driver: bridge

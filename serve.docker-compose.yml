@@ -1,0 +1,18 @@
+services:
+  docusaurus-serve:
+    build:
+      context: .
+      target: serve
+    container_name: gorehco_docs_serve
+    ports:
+      - "3001:3001"
+      - "130.150.47.203:3001:3001"  # Acceso externo
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - docs_network
+
+networks:
+  docs_network:
+    driver: bridge
