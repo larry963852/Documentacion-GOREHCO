@@ -73,7 +73,7 @@ const config: Config = {
           label: 'APIS Gorehco',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/larry963852/Documentacion-GOREHCO.git',
           label: 'GitHub',
           position: 'right',
         },
