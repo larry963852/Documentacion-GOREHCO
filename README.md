@@ -1,6 +1,6 @@
 # Gorehco Docs - Documentación API
 
-Documentación construida con [Docusaurus](https://docusaurus.io/).
+Documentación Pauperrima.
 
 ## 🚀 Inicio Rápido
 
@@ -8,7 +8,7 @@ Documentación construida con [Docusaurus](https://docusaurus.io/).
 
 ```bash
 # Clonar repositorio
-git clone <tu-repo>
+git clone https://github.com/larry963852/Documentacion-GOREHCO.git
 cd gorehco-docs
 
 # Desarrollo (hot reload)
@@ -24,7 +24,7 @@ cd gorehco-docs
 
 ```bash
 # Clonar repositorio
-git clone <tu-repo>
+git clone https://github.com/larry963852/Documentacion-GOREHCO.git
 cd gorehco-docs
 
 # Instalar dependencias y ejecutar
@@ -61,7 +61,7 @@ ports:
 
 ```bash
 # En tu servidor
-git clone <tu-repo>
+git clone https://github.com/larry963852/Documentacion-GOREHCO.git
 cd gorehco-docs
 chmod +x run-pro.sh
 ./run-pro.sh nginx
