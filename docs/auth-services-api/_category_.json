@@ -1,8 +1,0 @@
-{
-  "label": "APIS Auth Service",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Beinvenidos al tutorial de las APIs del servicio de autenticación de Gorehco. Aquí aprenderás a utilizar las APIs para autenticar usuarios, gestionar sesiones y más."
-  }
-}
