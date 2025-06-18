@@ -73,6 +73,11 @@ const config: Config = {
           label: 'APIS Gorehco',
         },
         {
+          href: 'http://130.150.47.203:3002',
+          label: 'Create Docs',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/larry963852/Documentacion-GOREHCO.git',
           label: 'GitHub',
           position: 'right',
