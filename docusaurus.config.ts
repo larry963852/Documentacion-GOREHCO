@@ -90,6 +90,14 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  // Scripts para autenticación
+  scripts: [
+    {
+      src: '/js/token-test.js',
+      async: false,
+    },
+  ],
 };
 
 export default config;
