@@ -4,7 +4,7 @@ description: Bienvenido a la documentación general de los sistemas de la GOREHC
 icon: hand-wave
 ---
 
-# Hola :D
+# QUICK START
 
 Este proyecto engloba un sistema construido sobre una arquitectura de microservicios, orientada a facilitar la gestión, integración, escalabilidad y mantenimiento de sus distintos módulos funcionales. Cada componente opera de forma independiente y se comunica mediante APIs estandarizadas.
 
